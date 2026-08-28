@@ -250,3 +250,12 @@ h1 em, h2 em { color: var(--green); font-style: normal; }
 /* Use the supplied condominium charging flowchart in full. */
 .load-diagram { min-height: 0; padding: 0; overflow: hidden; }
 .load-diagram-image { display: block; width: 100%; height: auto; }
+
+/* Present the supplied five-stage project artwork as one complete section. */
+.section-process { padding: 72px 0 78px; }
+.process-image-wrap { width: 100%; max-width: 1280px; }
+.process-image { display: block; width: 100%; height: auto; }
+
+@media (max-width: 560px) {
+  .section-process { padding: 42px 0 48px; }
+}
