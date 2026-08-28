@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Usinas solares para investimento | EcoSol Brasil Energia',
     description: 'Avalie projetos de geração solar com análise técnica, estudo econômico e visão de longo prazo.',
-    url: 'https://www.ecosolbrasilenergia.com.br/usinas-solares-investimento',
+    url: 'https://ecosolbrasil.com.br/usinas-solares-investimento',
     type: 'website',
   },
 };

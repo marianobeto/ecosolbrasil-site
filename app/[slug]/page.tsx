@@ -30,7 +30,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     title: page.title,
     description: page.description,
     alternates: { canonical: `/${slug}` },
-    openGraph: { title: `${page.title} | EcoSol Brasil Energia`, description: page.description, url: `https://www.ecosolbrasilenergia.com.br/${slug}`, type: 'website' },
+    openGraph: { title: `${page.title} | EcoSol Brasil Energia`, description: page.description, url: `https://ecosolbrasil.com.br/${slug}`, type: 'website' },
     twitter: { card: 'summary_large_image', title: page.title, description: page.description },
   };
 }

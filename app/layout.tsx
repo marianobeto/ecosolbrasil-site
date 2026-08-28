@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://www.ecosolbrasilenergia.com.br'),
+  metadataBase: new URL('https://ecosolbrasil.com.br'),
   title: {
     default: 'EcoSol Brasil Energia | Energia solar e mobilidade elétrica',
     template: '%s | EcoSol Brasil Energia',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'EcoSol Brasil Energia | Energia inteligente para o seu futuro',
     description: 'Projetos de energia solar, infraestrutura elétrica e mobilidade elétrica para residências, empresas e condomínios.',
-    url: 'https://www.ecosolbrasilenergia.com.br',
+    url: 'https://ecosolbrasil.com.br',
     siteName: 'EcoSol Brasil Energia',
     locale: 'pt_BR',
     type: 'website',
