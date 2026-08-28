@@ -48,7 +48,7 @@ function SectionIntro({ index, kicker, title, text, light = false }: { index: st
 function ArrowIcon() { return <span className="arrow-icon" aria-hidden="true">↗</span>; }
 
 function LogoLockup({ dark = false }: { dark?: boolean }) {
-  return <a className={`logo-lockup ${dark ? 'logo-lockup-dark' : ''}`} href="#inicio" aria-label="EcoSol Brasil Energia — início"><img src="assets/ecosol-logo-horizontal.png" alt="EcoSol Brasil" /><span>ENERGIA</span></a>;
+  return <a className="logo-lockup" href="#inicio" aria-label="EcoSol Brasil Energia — início"><img src={dark ? "assets/ecosol-logo-horizontal-white.png" : "assets/ecosol-logo-horizontal.png"} alt="EcoSol Brasil" /></a>;
 }
 
 function WhatsAppButton({ message = waMessages.default, children, className = '' }: { message?: string; children: React.ReactNode; className?: string }) {

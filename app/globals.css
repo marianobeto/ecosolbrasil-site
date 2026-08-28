@@ -60,11 +60,8 @@ a { color: inherit; text-decoration: none; }
 
 .header-inner { min-height: 82px; display: flex; align-items: center; gap: 28px; }
 
-.logo-lockup { display: inline-flex; flex-direction: column; align-items: flex-start; flex: 0 0 auto; gap: 3px; }
+.logo-lockup { display: inline-flex; flex: 0 0 auto; }
 .logo-lockup img { display: block; width: 132px; height: 43px; object-fit: contain; object-position: left center; }
-.logo-lockup span { margin-left: 41px; color: var(--green-dark); font-size: 8px; font-weight: 800; letter-spacing: .32em; }
-.logo-lockup-dark img { filter: brightness(0) invert(1); }
-.logo-lockup-dark span { color: #8ce9a3; }
 
 .site-nav { margin-left: auto; display: flex; align-items: center; gap: 21px; }
 .site-nav a { position: relative; color: #44616b; font-size: 11px; font-weight: 700; white-space: nowrap; transition: color .2s ease; }
@@ -221,3 +218,7 @@ h1 em, h2 em { color: var(--green); font-style: normal; }
 
 @media (max-width: 900px) { .internal-header nav { gap: 12px; }.internal-header nav a { font-size: 10px; }.internal-header-inner { gap: 15px; }.internal-hero-inner { grid-template-columns: 1fr 260px; gap: 30px; }.internal-orbit { width: 250px; height: 250px; }.internal-orbit::before { width: 300px; }.internal-orbit::after { height: 300px; }.internal-content-grid { gap: 50px; } }
 @media (max-width: 700px) { .internal-header-inner { min-height: 70px; }.internal-header nav { display: none; }.internal-header-cta { margin-left: auto; min-height: 37px; padding: 0 11px; font-size: 9px; }.internal-logo img { width: 118px; height: 38px; }.internal-logo span { margin-left: 36px; }.internal-hero { padding: 62px 0 70px; }.internal-hero-inner { grid-template-columns: 1fr; }.internal-hero h1 { font-size: clamp(43px, 12vw, 62px); }.internal-orbit { display: none; }.internal-content-grid { grid-template-columns: 1fr; gap: 50px; }.internal-related-grid { grid-template-columns: 1fr; }.internal-footer .container { align-items: flex-start; flex-wrap: wrap; }.internal-footer span { width: 100%; order: 3; margin: 0; line-height: 1.5; } }
+
+/* Use the supplied EcoSol Brasil artwork without adding text or filters. */
+.logo-lockup span, .internal-logo span { display: none; }
+.logo-lockup-dark img, .internal-footer img { filter: none; }
