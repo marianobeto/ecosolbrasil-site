@@ -229,3 +229,12 @@ h1 em, h2 em { color: var(--green); font-style: normal; }
 @media (max-width: 560px) {
   .mobility-photo img { min-height: 330px; object-position: 76% center; }
 }
+
+.partner-inner { min-height: 112px; }
+.partner-logos img { width: 82px; height: 82px; object-fit: contain; object-position: center; flex: 0 0 auto; }
+
+@media (max-width: 560px) {
+  .partner-inner { min-height: 132px; }
+  .partner-logos img { width: 72px; height: 72px; }
+  .partner-note span { max-width: 110px; }
+}

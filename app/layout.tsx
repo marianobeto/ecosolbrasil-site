@@ -7,8 +7,8 @@ export const metadata: Metadata = {
     default: 'EcoSol Brasil Energia | Energia solar e mobilidade elétrica',
     template: '%s | EcoSol Brasil Energia',
   },
-  description: 'Soluções em energia solar fotovoltaica, carregadores para veículos elétricos e gerenciamento de carga em Salvador, Bahia.',
-  keywords: ['energia solar Salvador', 'energia solar Bahia', 'instalação de energia solar', 'wallbox Salvador', 'carregadores para condomínios'],
+  description: 'Soluções em energia solar fotovoltaica, carregadores para veículos elétricos e gerenciamento de carga em todo o Brasil.',
+  keywords: ['energia solar Brasil', 'instalação de energia solar', 'wallbox Brasil', 'carregadores para condomínios'],
   alternates: { canonical: '/' },
   openGraph: {
     title: 'EcoSol Brasil Energia | Energia inteligente para o seu futuro',
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'EcoSol Brasil Energia',
-    description: 'Energia solar e mobilidade elétrica em Salvador, Bahia.',
+    description: 'Energia solar e mobilidade elétrica em todo o Brasil.',
   },
   icons: {
     icon: [{ url: '/favicon.png', type: 'image/png', sizes: '64x64' }],
