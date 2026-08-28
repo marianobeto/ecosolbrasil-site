@@ -333,3 +333,8 @@ h1 em, h2 em { color: var(--green); font-style: normal; }
   .investment-final-cta { padding: 75px 0; }
   .investment-final-cta h2 { font-size: 43px; }
 }
+
+/* Show the supplied charging artwork as a complete feature panel. */
+.section-mobility { padding: 0; background: #0a171d; }
+.mobility-feature-link { display: block; width: 100%; max-width: 1360px; margin: 0 auto; }
+.mobility-feature-image { display: block; width: 100%; height: auto; }
