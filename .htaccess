@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Keep the XAMPP shortcut in sync with the local Vinext app.
+RewriteRule ^(.*)$ http://localhost:3000/$1 [R=302,L,NE]

@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>EcoSol Brasil Energia</title>
+    <script>
+      const prefix = '/ecosolbrasil';
+      const currentPath = window.location.pathname.startsWith(prefix)
+        ? window.location.pathname.slice(prefix.length) || '/'
+        : '/';
+      window.location.replace(`http://localhost:3000${currentPath}${window.location.search}${window.location.hash}`);
+    </script>
+  </head>
+  <body>
+    <p>Abrindo a prévia local da EcoSol Brasil Energia…</p>
+  </body>
+</html>
