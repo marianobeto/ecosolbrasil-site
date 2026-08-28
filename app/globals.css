@@ -238,3 +238,11 @@ h1 em, h2 em { color: var(--green); font-style: normal; }
   .partner-logos img { width: 72px; height: 72px; }
   .partner-note span { max-width: 110px; }
 }
+
+/* Keep the original transparent wordmark visible in the footer. */
+.site-footer { background: #e4f1e9; color: var(--ink); }
+.site-footer .footer-top { border-bottom-color: rgba(16, 43, 58, .14); }
+.site-footer .footer-top > p { color: #57747c; }
+.site-footer .footer-social a { border-color: rgba(11, 117, 74, .3); color: var(--green-dark); }
+.site-footer .footer-bottom nav a, .site-footer .footer-bottom > span { color: #57747c; }
+.site-footer .footer-bottom nav a:hover { color: var(--green-dark); }
