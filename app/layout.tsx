@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     template: '%s | EcoSol Brasil Energia',
   },
   description: 'Soluções em energia solar fotovoltaica, carregadores para veículos elétricos e gerenciamento de carga em todo o Brasil.',
-  keywords: ['energia solar Brasil', 'instalação de energia solar', 'wallbox Brasil', 'carregadores para condomínios'],
+  keywords: ['energia solar Brasil', 'instalação de energia solar', 'wallbox Brasil', 'carregadores para condomínios', 'investir em energia solar', 'usina solar para investimento', 'projeto de usina solar'],
   alternates: { canonical: '/' },
   openGraph: {
     title: 'EcoSol Brasil Energia | Energia inteligente para o seu futuro',
